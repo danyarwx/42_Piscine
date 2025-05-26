@@ -81,7 +81,7 @@ By week 3, you’re no longer scared of segfaults - you *expect* them.
 
 ---
 
-## 🐚 Shell & Git – Welcome to the Real World
+## 🐚 Shell & Git
 
 This part was about **knowing your tools**.
 
