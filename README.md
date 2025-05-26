@@ -1,4 +1,4 @@
-# 🧠 42 Piscine — My Journey Through the Fire
+# 🧠 42 Piscine — My Journey
 
 > “If you're going through hell, keep going.” — Winston Churchill
 
