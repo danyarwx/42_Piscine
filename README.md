@@ -4,7 +4,7 @@
 
 Welcome to my 42 Piscine archive. This is a collection of all the exercises, projects, and brain-melting challenges I survived during the infamous **4-week bootcamp** at [42 Coding School](https://42.fr/).
 
-I did my Piscine here: [42 Heilbronn](https://www.42heilbronn.de/en/homepage)
+I did my Piscine at [42 Heilbronn](https://www.42heilbronn.de/en/homepage)
 
 ---
 
@@ -114,7 +114,7 @@ and **Git** showed us how to never lose work again (unless you really try).
 
 ---
 
-## 🧠 The Final Boss: The Core Game
+## 🧠 The Core Game
 
 At the end of the Piscine, we were thrown into the **CORE Game** - a real-time strategy coding battle where teams compete by writing bots that control warriors, gather resources, and destroy enemy cores.
 
