@@ -4,7 +4,7 @@
 
 Welcome to my 42 Piscine archive. This is a collection of all the exercises, projects, and brain-melting challenges I survived during the infamous **4-week bootcamp** at [42 Coding School](https://42.fr/).
 
-I did my Piscine at [42 Heilbronn](https://www.42heilbronn.de/en/homepage)
+I did my Piscine at [42 Heilbronn](https://www.42heilbronn.de/en/homepage) in the April 2025 batch.
 
 ---
 
