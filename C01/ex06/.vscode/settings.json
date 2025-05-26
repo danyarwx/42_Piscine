@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		"algorithm": "c",
+		"chrono": "c",
+		"limits": "c",
+		"ratio": "c",
+		"__tuple": "c",
+		"array": "c",
+		"stdio.h": "c"
+	}
+}
