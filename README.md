@@ -2,7 +2,7 @@
 
 > “If you're going through hell, keep going.” — Winston Churchill
 
-Welcome to my 42 Piscine archive. This is a collection of all the exercises, projects, and brain-melting challenges I survived during the infamous **4-week bootcamp** at [42 Coding School](https://42.fr/).
+Welcome to my 42 Piscine archive. This is a collection of all the exercises, projects, and brain-melting challenges I completed during the infamous **4-week bootcamp** at [42 Coding School](https://42.fr/).
 
 I did my Piscine at [42 Heilbronn](https://www.42heilbronn.de/en/homepage) in the April 2025 batch.
 
@@ -18,109 +18,69 @@ Inside the `C/` folder, you’ll find:
 - `C08` – Header files & Macros
 
 Inside the `Rush/` folder, you'll find the group projects:
-- `Rush00` – Fun project to print out different shapes
-- `Rush01` – Backtracking hell...
+- `Rush00` – Printing out different shapes
+- `Rush01` – Backtracking algorithm
 
 Inside the `Shell/`, you can find how we learned Mac Terminal:
 - `Shell00` – Moving around, creating folders & changing access rights
-- `Shell01` – More fun with bash
+- `Shell01` – More bash exercises
 
-## 🧱 Week 1–3: C Programming – From Zero to Stack Overflow
-
-The C portion of the Piscine was like being thrown into a cold ocean and learning to swim by *drowning a little less each day*.
-
+## 🧱 C Programming
 ### 🧩 Topics Covered:
 
-- **Conditions & Loops**  
-  `if`, `else`, `while`, `for` — and knowing exactly when to avoid each one
+- **Control Flow**  
+  Mastery of `if`, `else`, `while`, and `for` constructs with an emphasis on precision and context.
 
 - **Memory Management**  
-  `malloc`, `free`, and how to screw up your heap in under 5 minutes
+  Direct interaction with memory via `malloc` and `free`, and understanding the cost of mismanagement.
 
-- **Pointers & Addresses**  
-  Learning what `*********ptr` really means—and why it haunts you
+- **Pointers & Addressing**  
+  Deep dive into pointer arithmetic and multi-level dereferencing — beyond the basics.
 
-- **Functions & Recursion**  
-  Calling yourself again and again…
+- **Command-Line Arguments**  
+  Using `argc` and `argv` to enable dynamic program input.
 
-- **Working with `argc` and `argv`**  
-  Command-line arguments: the gateway to real user input
+- **Modular Design & Macros**  
+  Crafting scalable codebases with header files, macros, and logical separation.
 
-- **Header Files, Macros & Modular Code**  
-  Breaking the monolith, organizing logic, reusing components
+- **Build Systems**  
+  Introduction to `Makefiles` and automation of compilation workflows.
 
-- **Makefiles**  
-  Writing your own build automation before it was cool
+- **Backtracking Algorithms**  
+  Implementation of recursive logic to explore solution spaces.
 
-- **Backtracking**  
-  Don't even get me started...
+- **Arrays & String Manipulation**  
+  Low-level character operations with an eye on buffer boundaries and efficiency.
 
-- **Arrays & Strings**  
-  Manipulating characters one buffer overflow at a time
+- **Custom Libraries**  
+  Re-implementing standard library functions — `ft_strlen`, `ft_putchar`, `ft_strcpy`, etc.
 
-- **Custom Libs**  
-  Rewriting the wheel with your own `ft_strlen`, `ft_putchar`, `ft_strcpy`, etc.
+- **Norminette Compliance**  
+  Enforcing rigorous code style for clarity, maintainability, and team cohesion.
 
-- **Norminette**  
-  A French robot that taught us pain, precision, and why beauty matters
+## 👾 Shell & Git Fundamentals
 
-### 💥 My Experience
-
-You don’t learn C during the Piscine.  
-
-You **absorb** it, one compiler error at a time.  
-
-Every conversation with a peer ***level higher*** taught me more than any YouTube tutorial ever could.
-
-Every conversation with a peer ***level lower*** made me remember and understand on a deeper level.
-
-By week 3, you’re no longer scared of segfaults - you *expect* them.
-
-> _"It doesn't compile. Can you come take a look...?"  
-> — Every Pisciner, 2:37am_
-
----
-
-## 🐚 Shell & Git
-
-This part was about **knowing your tools**.
-
-### 🔧 What We Learned:
+### Key Concepts Covered
 
 - **Terminal Navigation**  
-  `cd`, `ls`, `cat`, `find`, `grep` — basically becoming one with the shell
+  Efficient movement and file inspection using `cd`, `ls`, `cat`, `find`, and `grep`.
 
 - **File Permissions**  
-  `chmod 755` or die trying
+  Understanding and applying `chmod` to control access and execution rights.
 
-- **Pipes & Redirections**  
-  Learning that `>` can ruin your day, fast
+- **Pipes & Redirection**  
+  Building command chains and managing input/output with precision.
 
 - **Git & Version Control**  
-  Cloning, branching, pushing, fixing merge conflicts like a goddamn surgeon
+  Cloning, branching, committing, and resolving merge conflicts — a foundation for collaborative development.
 
-- **Vim**  
-  `:wq` or rage quit
+- **Vim Editor**  
+  Modal editing, navigation, and file management in a terminal environment.
 
-### ⚡ The Takeaway
-
-You start out lost in the terminal.  
-
-But a few hundred commands later… *it’s your home*.  
-
-Now, I can't even imagine creating a folder manually in Finder...
-
-and **Git** showed us how to never lose work again (unless you really try).
-
----
 
 ## 🧠 The Core Game
 
 At the end of the Piscine, we were thrown into the **CORE Game** - a real-time strategy coding battle where teams compete by writing bots that control warriors, gather resources, and destroy enemy cores.
-
-This wasn’t a simple simulation. It was a war. And a lot of fun :)
-
-To the point where the assistant team had to come work on Sunday, because of people trying to break the game on purpose and abuse system bugs to win against other bots 😆
 
 ### 🕹 The Objective
 
@@ -135,19 +95,15 @@ You control your units via a loop function that executes **50 times per second**
 - Who do we attack?
 - How do we survive?
 
-> _"CORE?"_
-> — _"GAME!"_
-
 ### 💡 What It Taught Me
 
 - **State machines** and tight control loops
 - **Game theory and resource optimization**
 - **Memory-safe design under live constraints**
-- Writing code that doesn’t just work—it *fights*
 
 But the most important:
 
-**Memory leaks are real** and `malloc` is a loaded gun (always use `free`).
+What **memory leaks are** and that with `malloc` you always need to use `free`.
 
 ### 🗂 Repo Contents
 
@@ -159,7 +115,7 @@ Inside the `Core_Bot/` folder, you’ll find:
 - `README.md` – How to run it
 
 
-### If you read till here...
+### P. S.
 
 The 42 Piscine is unlike anything I have experienced before.
 
